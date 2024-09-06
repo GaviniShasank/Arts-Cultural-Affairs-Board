@@ -1,0 +1,215 @@
+.about_section {
+  width: 100%;
+  float: left;
+}
+
+.about_section_2 {
+  width: 100%;
+  float: left;
+}
+
+.about_taital {
+  width: 100%;
+  float: left;
+  font-size: 40px;
+  color: #3b3b3b;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 0px;
+}
+
+.about_taital_box {
+  width: 100%;
+  float: left;
+  padding-top: 15px;
+}
+
+.about_img {
+  width: 100%;
+}
+
+.about_taital_1 {
+  width: 100%;
+  float: left;
+  font-size: 30px;
+  color: #3b3b3b;
+  margin: 10px 0px;
+}
+
+.about_text {
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  color: #232222;
+  margin: 0px;
+}
+
+.readmore_btn {
+  width: 170px;
+  float: left;
+  margin-top: 40px;
+}
+
+.readmore_btn a {
+  width: 100%;
+  float: left;
+  font-size: 18px;
+  color: #f01c1c;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: 1px solid #f01c1c;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.readmore_btn a:hover {
+  color: #4a4949;
+  border: 1px solid #4a4949;
+}
+/* Global Styles */
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.containerop {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col-md-6 {
+  width: 48%;
+}
+
+.mb-4 {
+  margin-bottom: 20px;
+}
+
+/* About Section */
+.about_section {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.about_taital_box {
+  text-align: left;
+  padding: 15px;
+}
+
+.about_taital {
+  font-size: 40px;
+  color: #3b3b3b;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.about_taital_1 {
+  font-size: 30px;
+  color: #3b3b3b;
+  margin: 15px 0;
+  text-align: center;
+}
+
+.about_text {
+  font-size: 16px;
+  color: #232222;
+  line-height: 1.8;
+  margin: 0 auto;
+  text-align: justify;
+  max-width: 90%;
+}
+
+.image_iman {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.about_img:hover {
+  transform: scale(1.05);
+}
+
+/* Clubs Section */
+h1.about_taital {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+h2.about_taital_1 {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about_section .row {
+  margin-bottom: 40px;
+}
+
+p.about_text {
+  font-size: 16px;
+  text-align: left;
+  margin: 0;
+}
+
+/* Hover effect for images */
+.image_iman img {
+  transition: transform 0.1s;
+}
+
+.image_iman img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.footer_section {
+  background-color: #333;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.footer_social_icon ul {
+  padding: 0;
+  list-style: none;
+}
+
+.footer_social_icon ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer_social_icon ul li a {
+  color: rgb(14, 94, 108);
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.footer_social_icon ul li a:hover {
+  color: #f01c1c;
+}
