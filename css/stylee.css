@@ -40,6 +40,14 @@
   font-weight: bold;
   padding: 20px 20px 10px 60px;
 }
+.prep_texte {
+  width: 100%;
+  font-size: 20px;
+  color: #3b3b3b;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 20px 20px 10px 60px;
+}
 .s1_textss {
   width: 100%;
   padding: 30px 20px 10px 20px;
@@ -53,6 +61,14 @@
   text-align: center;
 }
 .lorem_textss {
+  width: 100%;
+  font-size: 14px;
+  color: #3b3b3b;
+  margin: 0px;
+  text-transform: uppercase;
+  padding: 0px 25px;
+}
+.lorem_texte {
   width: 100%;
   font-size: 14px;
   color: #3b3b3b;
