@@ -428,9 +428,10 @@ button {
 /* .iconac{
   width:100px;
 } */
+ 
 .opi {
   width: 35px;
-  padding-left: 10px;
+  padding-left: 3px;
 }
 /* Client Section */
 .client_section {
@@ -806,6 +807,7 @@ textarea#comment.update_mail::placeholder {
   float: left;
   font-size: 16px;
   color: #fefefd;
+  text-align: center;
   margin-left: 0px;
   margin-right: 0px;
   font-family: "Poppins", sans-serif;
@@ -818,9 +820,7 @@ textarea#comment.update_mail::placeholder {
 .copyright_text a:hover {
   color: #252525;
 }
-.oporwhat{
-  margin-left:  600px;
-}
+
 /* copyright section end */
 
 .margin_top90 {
